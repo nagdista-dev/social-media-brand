@@ -1,0 +1,70 @@
+
+:root{
+	--nagdista-primary:#6C2DD9;
+	--nagdista-danger:#f00;
+	--nagdista-white:#BEFBEF;
+	--nagdista-black:#0D0D0D;
+	--nagdista-half-white:rgba(255,255,255,.5);
+	--nagdista-border-color:rgba(255,255,255,.2);
+}
+
+*:lang(ar) {
+  font-family: "Tajawal", sans-serif;
+}
+
+*:lang(en) {
+  font-family: "Poppins", sans-serif;
+}
+
+header .x1c4vz4f{
+display: none !important;
+}
+
+.x10l6tqk.xh8yej3.x1g42fcv{
+	border-top: 1px solid  var(--nagdista-border-color);
+}
+
+.x1iyjqo2.x6ikm8r.x10wlt62.x1n2onr6.xlyipyv.xuxw1ft.x1lliihq.xh8yej3._ao3e,
+._ak8k,
+{
+	display: none !important;
+}
+
+._ak8i{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(-50%,-50%);
+}
+
+.x140p0ai.x1gufx9m.x1s928wv.xhkezso.x1gmr53x.x1cpjm7i.x1fgarty.x1943h6x.x193iq5w.xeuugli.x13faqbe.x1vvkbs.x1lliihq.x1fj9vlw.xhslqc4.x1hx0egp.x1pg5gke.xjb2p0i.xo1l8bm.xl2ypbo.x1ic7a3i{
+	display: none;
+}
+
+// unread background 
+.xyp3urf{
+	background: var(--nagdista-primary) !important;
+}
+
+// unread number 
+.x1pse0pq{
+	color: var(--nagdista-white) !important;
+}
+
+// message sended time 
+.x1v5yvga,._amk7,.x1595w2n{
+	display: none !important;
+}
+
+// filters
+.x1abdmlv{
+	background: var(--nagdista-primary) !important;
+	color: var(--nagdista-white) !important;
+}
+
+// message | my sende message 
+.message-out ._amk6{
+	color: #fff !important;
+	background: var(--nagdista-primary) !important;
+}
+

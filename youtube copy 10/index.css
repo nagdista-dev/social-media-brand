@@ -1,0 +1,135 @@
+:root {
+  --nagdista-primary: #6c2dd9;
+  --nagdista-white: #befbef;
+  --nagdista-danger: #f00;
+  --nagdista-black: #0d0d0d;
+  --nagdista-half-white: rgba(255, 255, 255, 0.5);
+  --nagdista-border-color: rgba(255, 255, 255, 0.2);
+}
+
+*:lang(ar) {
+  font-family: "Tajawal", sans-serif;
+}
+
+*:lang(en) {
+  font-family: "Poppins", sans-serif;
+}
+
+.ytThumbnailViewModelImage {
+  overflow: hidden !important;
+}
+
+.ytThumbnailViewModelImage::after {
+  content: "";
+  position: absolute !important;
+  inset: 0;
+  width: 100% !important;
+  height: 100 !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.style-scope .ytd-app,
+#guide-inner-content {
+  border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+#chips-wrapper {
+  backdrop-filter: blur(20px);
+  padding: 10px 0px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+
+
+yt-live-chat-text-message-renderer {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 5px;
+  margin: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+#content {
+  font-family: "Tajawal", sans-serif;
+}
+
+#content {
+  font-family: "Poppins", sans-serif;
+}
+
+span#author-name {
+  font-weight: bold !important;
+  color: #f00 !important;
+}
+
+.yt-spec-icon-badge-shape__badge {
+  background: var(--nagdista-primary) !important;
+}
+
+ytd-rich-item-renderer {
+  min-width: 24% !important;
+}
+
+.yt-lockup-view-model__metadata {
+  border-top: 2px solid var(--nagdista-border-color) !important;
+  padding: 10px !important;
+  background: var(--nagdista-black) !important;
+  box-shadow: 0px 0px 3px var(--nagdista-border-color);
+  border-bottom-left-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+}
+
+.ytThumbnailOverlayProgressBarHostWatchedProgressBar.ytThumbnailOverlayProgressBarHostUseLegacyBar {
+  background: var(--nagdista-half-white) !important;
+}
+
+.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment {
+  background: var(--nagdista-primary) !important;
+}
+
+badge-shape,
+.yt-spec-avatar-shape--live-ring::after,
+.yt-spec-avatar-shape__live-badge-text {
+  background: var(--nagdista-primary) !important;
+}
+
+#logo-icon,
+#voice-search-button,
+#country-code {
+  display: none !important;
+}
+
+.left-side-items {
+  text-align: center;
+  overflow: hidden;
+  background-color: var(--nagdista-black);
+  color: var(--nagdista-white);
+  padding: 5px 3px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+  border: 1px solid var(--nagdista-border-color);
+  text-decoration: none;
+}
+
+.left-side-items a {
+  text-decoration: none;
+}
+
+.left-side-items:hover {
+  background-color: var(--nagdista-primary);
+}
+
+.left-side-items span {
+  font-size: 10px;
+  color: var(--nagdista-white);
+}
+
+.active {
+  background-color: var(--nagdista-primary);
+}

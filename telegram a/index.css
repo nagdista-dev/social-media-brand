@@ -1,0 +1,57 @@
+
+*:lang(ar) {
+  font-family: "Tajawal", sans-serif;
+  font-size: 18px;
+
+	line-height: 35px ;
+}
+
+*:lang(en) {
+  font-family: "Poppins", sans-serif;
+}
+
+#LeftColumn{
+	padding: 20px 5px !important;
+}
+.chat-item-archive{
+	display: none !important;
+}
+.DropdownMenu{
+	// display: none !important;
+}
+.SearchInput{
+	width: 100% !important;
+}
+.subtitle{
+	width: 100% !important;
+}
+.last-message.shared-canvas-container,.Ow6Ij9O5{
+	display: none !important;
+}
+.ripple-container , .chat-item-clickable.group.forum,.ListItem.lqZyVmVG.Chat.chat-item-clickable{
+	border-bottom: 1px solid rgba(255,255,255,.2) !important;
+}
+
+.LastMessageMeta{
+	display: none !important;
+}
+
+.zGiYriqE.chat-badge-transition.shown.open ,.zGiYriqE {
+	position: absolute !important;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%) !important;
+
+}
+
+.unread-divider.local-action-message
+{
+	padding: 10px 0 !important;
+	border-radius: 12px !important;
+	background: red !important;
+}
+
+
+// NEW
+
+

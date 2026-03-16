@@ -1,0 +1,15 @@
+*:lang(ar) {
+  font-family: "Tajawal", sans-serif !important;
+  font-size: 16px !important;
+}
+
+*:lang(en) {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* // MESSAGE */
+.messageListItem__5126c{
+	
+	border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+	padding: 20px 0 !important;
+}

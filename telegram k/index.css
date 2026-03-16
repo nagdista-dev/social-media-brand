@@ -1,0 +1,114 @@
+
+:root{
+	--primary:#6C2DD9;
+	--danger:#f00;
+	--white:#BEFBEF;
+	--black:#0D0D0D;
+	--half-white:rgba(255,255,255,.5);
+	--border-color:rgba(255,255,255,.2);
+}
+
+*:lang(ar) {
+  font-family: "Tajawal", sans-serif;
+  font-size: 18px;
+
+	line-height: 35px ;
+}
+
+*:lang(en) {
+  font-family: "Poppins", sans-serif;
+}
+// MAIN container
+.whole.page-chats{
+	min-width: 100vw !important;
+}
+// !FOLDERS
+.folders-sidebar__folder-item.rp{
+margin: 2px 0px;
+border-bottom:  1px solid var(--border-color);
+	
+}
+// !FOLDER CHATS NOT SELECTED
+.folders-sidebar__folder-item-name{
+	padding: 3px 5px !important;
+	background: rgba(255,255,255,0.2) !important;
+		color: var(--half-white);
+	border-radius: 25px !important;
+}
+
+.folders-sidebar__folder-item-icon{
+	color: var(--half-white);
+}
+
+
+.folders-sidebar__folder-item-badge {
+	background: var(--primary);
+	color: var(--white);
+}
+// !FOLDER CHATS SELECTED
+//	NAME & ICON
+.folders-sidebar__folder-item--selected .folders-sidebar__folder-item-icon{
+		color: var(--primary) !important;
+
+}
+.folders-sidebar__folder-item--selected .folders-sidebar__folder-item-name
+{
+	color: var(--white) !important;
+	font-weight: 700;
+}
+
+// BADGE
+.folders-sidebar__folder-item--selected .folders-sidebar__folder-item-badge{
+	background: var(--primary);
+	color: var(--white);
+}
+
+// MESSAGES 
+    .chatlist-chat.active {
+	background:var(--primary) !important;
+}
+a.row{
+border-bottom:  1px solid var(--border-color);
+
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+a.row .row-subtitle{
+	display: none !important;
+}
+a.row .message-time{
+	display: none !important;
+}
+.unread{
+	position: absolute;
+	right: 0;
+background: var(--primary) !important;
+}
+
+// UNREAD TAP
+.bubble.is-first-unread:before{
+	background: var(--danger) !important;
+	color: var(--white);
+}
+
+// MAIN CONTAINER
+.is-chat,.is-broadcast{
+	padding-bottom: 50px !important;
+}
+
+// LINKS
+.link-color{
+	color: var(--primary);
+}
+.chat-input .btn-send {
+	background: var(--primary) !important;
+}
+.btn-new-menu{
+		background: var(--primary) !important;
+
+}
+
+.message{
+	font-size: 18px !important;
+	line-height: 2 !important;
+}
